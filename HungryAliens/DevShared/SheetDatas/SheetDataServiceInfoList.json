@@ -1,5 +1,5 @@
 {
-  "ServiceName": "DevServer",
+  "ServiceName": "DevShared",
   "VersionNumber": 12,
   "ServingUrl": "https://www.detailgames.com/HungryAliens/DevShared/SheetDatas/SheetDataServiceInfoList.json",
   "SheetDataInfos": [
