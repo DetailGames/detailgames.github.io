@@ -1,0 +1,23 @@
+{
+  "ServiceName": "GStar2023",
+  "VersionNumber": 14,
+  "ServingUrl": "https://www.detailgames.com/HungryAliens/GStar2023/SheetDatas/SheetDataServiceInfoList.json",
+  "SheetDataInfos": [
+    {
+      "SheetName": "GameDataTable.json",
+      "ServingUrl": "https://www.detailgames.com/HungryAliens/GStar2023/SheetDatas/GameDataTable.json"
+    },
+    {
+      "SheetName": "ShopRewardDataTable.json",
+      "ServingUrl": "https://www.detailgames.com/HungryAliens/GStar2023/SheetDatas/ShopRewardDataTable.json"
+    },
+    {
+      "SheetName": "LocalizationTable.json",
+      "ServingUrl": "https://www.detailgames.com/HungryAliens/GStar2023/SheetDatas/LocalizationTable.json"
+    },
+    {
+      "SheetName": "BalancingTable.json",
+      "ServingUrl": "https://www.detailgames.com/HungryAliens/GStar2023/SheetDatas/BalancingTable.json"
+    }
+  ]
+}
