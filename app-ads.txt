@@ -1,4 +1,3 @@
-google.com, pub-8891488288644899, DIRECT, f08c47fec0942fa0
 aceinmobi.com, 9e311c7a68e94888aac7fbb4272381e2, RESELLER
 adform.com, 716, RESELLER
 admanmedia.com, 2153, RESELLER
@@ -18,6 +17,7 @@ eliteappgrade.com, 494223, RESELLER
 eskimi.com, 2020000663, RESELLER
 freewheel.tv, 741650, RESELLER
 google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
+google.com, pub-8891488288644899, DIRECT, f08c47fec0942fa0
 ignitemediatech.com, pub_11115, RESELLER
 improvedigital.com, 1114, RESELLER
 improvedigital.com, 2276, RESELLER
