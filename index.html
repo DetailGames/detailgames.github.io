@@ -1,32 +1,99 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en"><head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&amp;display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DETAIL GAMES | 디테일게임즈</title>
   <style>
-body{
-    background-color: #000000;
-}
-.company-info {
-  color: white; /* Set text color to white */
-  text-align: center; /* Center-align the text */
-  font-size: 13px; /* Set the size of the text */
-  font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR, with a fallback to any sans-serif font */
-}    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #000;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .company-logo img {
+      width: 40vw;
+      min-width: 250px;
+      max-width: 500px;
+      margin-top: 50px;
+    }
+    .company-info, .company-info p {
+      color: white;
+      font-size: 13px;
+    }
+    .section-title {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    .game-title img {
+      max-width: 100%;
+      height: auto;
+    }
+    .button img {
+      max-width: 150px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .divider {
+      margin: 30px 0;
+      height: 2px;
+      background-color: #555;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
-  <title>DETAIL GAMES : 디테일게임즈</title>
-  <meta name="naver-site-verification" content="1bcae8677af53964673916fcbe4461a0b8ada25d">
-  <meta name="naver-site-verification" content="23c574942c2639f2a9a76f60d350273219b73a52">
 </head>
 <body>
-  <div style="height:60vw; min-height: 500px; max-height: 800px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <img src="detailgames.github.io/detailgames_intro.gif" style="width: 40vw; min-width: 400px; max-width : 500px;" alt="intro">
-    <!--<img src="detailgames.github.io/DETAILGAMES_LOGO.png" style="width: 40vw; min-width: 400px;">-->
-    <!-- Company Information Text -->
+
+  <!-- Company Section (Top of the page) -->
+  <div class="container">
+    <div class="company-logo">
+      <img src="detailgames.github.io/detailgames_intro.gif" alt="DETAIL GAMES Logo">
+    </div>
     <div class="company-info">
-<p>주식회사 디테일게임즈<br>
-DETAILGAMES Inc.<br><br>
-602ho, Metamorpho, 89, Seongsuil-ro, Seongdong-gu, Seoul, Republic of Korea, 04790</p> 
+      <p>주식회사 디테일게임즈<br>
+      DETAILGAMES Inc.<br><br>
+      602ho, Metamorpho, 89, Seongsuil-ro, Seongdong-gu, Seoul, Republic of Korea, 04790</p> 
     </div>
   </div>
+
+  <br>
+<br>
+<div class="divider"></div>
+<br>
+<br> <!-- Divider line between sections -->
+
+  <!-- HungryAliens Section (Bottom of the page) -->
+  <div class="container">
+    <div class="game-title">
+      <img src="maintenance.png" alt="HungryAliens Title">
+    </div>
+    <h2 class="section-title">HungryAliens | 외계인은 배고파</h2>
+
+    <!-- Store Buttons -->
+    <a href="https://play.google.com/store/apps/details?id=com.DetailGames.HungryAliens" class="button"><img src="https://detailgames.com/HungryAliens/Supports/GooglePlayIcon.png" alt="Google Play"></a>
+    <a href="https://apps.apple.com/app/id6449141384" class="button"><img src="https://detailgames.com/HungryAliens/Supports/AppStoreIcon.png" alt="Apple Store"></a>
+
+    <br><br>
+<br><br>
+<h3>Support</h3>
+    <!-- Support Buttons -->
+    <a href="mailto:customerservice@detailgames.com" class="button"><img src="https://detailgames.com/HungryAliens/Supports/SupportMailIcon.png" alt="Support Email"></a>
+  </div>
+
+
+
 </body></html>
