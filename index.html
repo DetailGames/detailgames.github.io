@@ -157,6 +157,11 @@
     function switchLang(lang) {
       document.querySelectorAll('[data-lang]').forEach(el => el.classList.remove('active'));
       document.querySelectorAll(`[data-lang="${lang}"]`).forEach(el => el.classList.add('active'));
+      
+      const logo = document.getElementById('logo');
+      const src = logo.src;
+      logo.src = '';
+      setTimeout(() => logo.src = src, 300); // Restart GIF animation
     }
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -166,7 +171,7 @@
 </head>
 <body>
   <header>
-    <img src="https://detailgames.github.io/detailgames_intro.gif" alt="DETAIL GAMES Logo">
+    <img id="logo" src="https://detailgames.github.io/detailgames_intro.gif" alt="DETAIL GAMES Logo">
   </header>
 
   <main>
