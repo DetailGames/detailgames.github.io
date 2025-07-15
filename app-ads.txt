@@ -19,7 +19,9 @@ freewheel.tv, 741650, RESELLER
 google.com, pub-3350219879925788, DIRECT, f08c47fec0942fa0
 google.com, pub-3350219879925788, DIRECT, f08c47fec0942fa0
 google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
+google.com, pub-3990748024667386, DIRECT, f08c47fec0942fa0
 google.com, pub-8891488288644899, DIRECT, f08c47fec0942fa0
+google.com, pub-7452201096415972, RESELLER, f08c47fec0942fa0
 ignitemediatech.com, pub_11115, RESELLER
 improvedigital.com, 1114, RESELLER
 improvedigital.com, 2276, RESELLER
@@ -225,7 +227,6 @@ pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
 xandr.com, 13799, RESELLER
 sharethrough.com, 6qlnf8SY, RESELLER, d53b998a7bd4ecd2
 triplelift.com, 12158, RESELLER, 6c33edb13117fd86
-google.com, pub-3990748024667386, DIRECT, f08c47fec0942fa0
 Xapads.com, 117219, RESELLER
 Pubmatic.com, 162882, RESELLER, 5d62403b186f2ace
 Pubmatic.com, 163319, RESELLER, 5d62403b186f2ace
@@ -249,7 +250,6 @@ videoheroes.tv, 212550, RESELLER, 064bc410192443d8
 openx.com, 559792583, RESELLER, 6a698e2ec38604c6
 themediagrid.com, B8N9YH, RESELLER, 35d5010d7789b49d
 adbility-media.com, 187, RESELLER
-google.com, pub-7452201096415972, RESELLER, f08c47fec0942fa0
 smartclip.net, 8153, RESELLER
 stroeer.com, 17379, RESELLER
 orangeclickmedia.com, C-1181, Direct
