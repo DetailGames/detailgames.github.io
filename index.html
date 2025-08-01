@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&amp;display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0b0c10;
+      --bg: #000000;
       --primary: #c5c6c7;
       --text: #c5c6c7;
       --title: #ffffff;
@@ -29,168 +30,68 @@
       line-height: 1.5;
       display: flex;
       flex-direction: column;
-      min-height: 30vh;
-    }
-
-    header {
-      background-color: var(--accent);
-      padding: 20px;
-      text-align: center;
-    }
-
-    header img {
-      max-width: 300px;
-      height: auto;
-    }
-
-    .lang-switch {
-      margin-top: 10px;
-    }
-
-    .lang-switch button {
-      margin: 0 5px;
-      padding: 6px 12px;
-      background: none;
-      color: var(--primary);
-      border: 1px solid var(--primary);
-      border-radius: 4px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .lang-switch button:hover {
-      background-color: var(--primary);
-      color: var(--accent);
-    }
-
-    main {
-      flex: 1;
-      padding: 40px 20px;
-      max-width: 960px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    h1, h2 {
-      color: var(--title);
-    }
-
-    h1 {
-      font-size: 1.6em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 0.75rem;
-      margin: 10px 0;
-    }
-
-    .game-section {
-      margin-top: 60px;
-    }
-
-    .game-cover {
-      max-width: 50%;
-      border-radius: 16px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    .store-buttons {
-      margin-top: 20px;
-      display: flex;
       justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
     }
 
-    .store-buttons img {
-      width: 150px;
-      border-radius: 1px;
-      transition: transform 0.2s ease-in-out;
+    #logo {
+      max-width: 80%;
+      max-height: 60vh;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 40px;
     }
 
-    .store-buttons img:hover {
-      transform: scale(1.05);
-    }
+
 
     footer {
       position: fixed;
       bottom: 0;
       left: 0;
-      width: 100%;
-      background-color: var(--accent);
-      padding: 15px 10px;
-      font-size: 0.55rem;
+      right: 0;
       text-align: center;
-      z-index: 999;
-      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+      padding: 15px 20px;
+      background-color: #000000;
+      z-index: 1000;
     }
 
+
+
     footer p {
-      margin: 5px 0;
+      margin: 8px 0;
+      font-size: 0.85rem;
     }
 
 
     @media (max-width: 600px) {
-      h1 {
-        font-size: 1.25em;
+      #logo {
+        max-width: 90%;
+        max-height: 50vh;
+        margin-bottom: 30px;
       }
 
-      p {
-        font-size: 0.75rem;
+      footer {
+        padding: 12px 15px;
       }
 
-      .store-buttons img {
-        width: 120px;
+      footer p {
+        font-size: 0.7rem;
+        margin: 5px 0;
       }
-    }
-
-    [data-lang] {
-      display: none;
-    }
-
-    [data-lang].active {
-      display: block;
     }
   </style>
-  <script>
-    function switchLang(lang) {
-      document.querySelectorAll('[data-lang]').forEach(el => el.classList.remove('active'));
-      document.querySelectorAll(`[data-lang="${lang}"]`).forEach(el => el.classList.add('active'));
-      
-      const logo = document.getElementById('logo');
-      const src = logo.src;
-      logo.src = '';
-      setTimeout(() => logo.src = src, 10); // Restart GIF animation
-    }
 
-    window.addEventListener('DOMContentLoaded', () => {
-      switchLang('en');
-    });
-  </script>
 </head>
+
 <body>
-  <header>
-    <img id="logo" src="https://detailgames.github.io/detailgames_intro.gif" alt="DETAIL GAMES Logo">
-  </header>
-
-  <main>
-    <div data-lang="en" class="active">
-      <p><strong>Detailgames Inc. | 주식회사 디테일게임즈</strong></p>
-      <p>602ho, Metamorpho, 89, Seongsuil-ro, Seongdong-gu, Seoul, Republic of Korea, 04790</p>
-    </div>
-    <div data-lang="ko">
-      <p><strong>Detailgames Inc. | 주식회사 디테일게임즈</strong></p>
-      <p>602ho, Metamorpho, 89, Seongsuil-ro, Seongdong-gu, Seoul, Republic of Korea, 04790</p>
-    </div>
-  </main>
-
+  <img id="logo" src="https://detailgames.github.io/detailgames_intro.gif" alt="DETAIL GAMES Logo">
   <footer>
-    <div class="lang-switch">
-        <button onclick="switchLang('en')">English</button>
-        <button onclick="switchLang('ko')">한국어</button>
-    </div>
-
+    <p><strong>© Detailgames Inc.</strong> All rights reserved.</p>
+    <p>602ho, Metamorpho, 89, Seongsuil-ro, Seongdong-gu, Seoul, Republic of Korea, 04790</p>
   </footer>
 </body>
+
 </html>
